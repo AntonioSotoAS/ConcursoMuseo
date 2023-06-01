@@ -6,6 +6,10 @@ public class Usuario {
     private String username;
     private String password;
 
+    public Usuario() {
+    }
+    
+
     public Usuario(Integer idUsuario, Empleado empleo, String username, String password) {
         this.idUsuario = idUsuario;
         this.empleo = empleo;

@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDateTime;
 
-public class Translado {
+public class Traslado {
 
     private Integer idTranslado;
     private Activo activo;
@@ -12,7 +12,7 @@ public class Translado {
     private String motivo;
     private Integer idEstado;
 
-    public Translado(Integer idTranslado, Activo activo, Usuario usuario, LocalDateTime fecha, LocalDateTime fechaRetorno, String motivo, Integer idEstado) {
+    public Traslado(Integer idTranslado, Activo activo, Usuario usuario, LocalDateTime fecha, LocalDateTime fechaRetorno, String motivo, Integer idEstado) {
         this.idTranslado = idTranslado;
         this.activo = activo;
         this.usuario = usuario;
