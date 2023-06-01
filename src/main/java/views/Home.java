@@ -28,334 +28,42 @@ public class Home extends javax.swing.JFrame {
 
         materialTabbed1 = new com.goslinggroup.utilsui.MaterialTabbed();
         jPanel1 = new javax.swing.JPanel();
-        txt_museo_nombre = new com.goslinggroup.utilsui.TextField();
-        jLabel1 = new javax.swing.JLabel();
-        txt_museo_calle = new com.goslinggroup.utilsui.TextField();
-        txt_museo_cod = new com.goslinggroup.utilsui.TextField();
-        txt_museo_estado = new com.goslinggroup.utilsui.TextField();
-        txt_museo_calle3 = new com.goslinggroup.utilsui.TextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        tabla_museo = new javax.swing.JTable();
-        btn_actualizar_museo = new javax.swing.JButton();
-        btn_guardar_museo = new javax.swing.JButton();
-        btn_eliminar_museo = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        tabla_activos = new javax.swing.JTable();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        tabla_colecciones = new javax.swing.JTable();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        txt_motivo_traslado = new com.goslinggroup.utilsui.TextField();
-        txt_fecha_retorno = new com.goslinggroup.utilsui.TextField();
-        cbx_activo_traslado = new javax.swing.JComboBox<>();
-        jButton1 = new javax.swing.JButton();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        tabla_traslado = new javax.swing.JTable();
         jPanel4 = new javax.swing.JPanel();
-        cbx_compra_activos = new javax.swing.JComboBox<>();
-        txt_compra_autor = new com.goslinggroup.utilsui.TextField();
-        cbx_compra_estado = new javax.swing.JComboBox<>();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        tabla_compras = new javax.swing.JTable();
-        btn_compra_eliminar = new javax.swing.JButton();
-        btn_compra_guardar = new javax.swing.JButton();
-        btn_compra_actualizar = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
-        cbx_empleado_cargo = new javax.swing.JComboBox<>();
-        txt_empleado_dni = new com.goslinggroup.utilsui.TextField();
-        txt_empleado_apellido = new com.goslinggroup.utilsui.TextField();
-        txt_empleado_nombre = new com.goslinggroup.utilsui.TextField();
-        btn_empleado_eliminar = new javax.swing.JButton();
-        btn_empleado_guardar = new javax.swing.JButton();
-        btn_empleado_actualizar = new javax.swing.JButton();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        tabla_empleados = new javax.swing.JTable();
         jPanel6 = new javax.swing.JPanel();
-        cbx_exposicion_estado = new javax.swing.JComboBox<>();
-        txt_fecha_fin = new com.goslinggroup.utilsui.TextField();
-        txt_fecha_inicio = new com.goslinggroup.utilsui.TextField();
-        cbx_exposicion_empleado = new javax.swing.JComboBox<>();
-        btn_expo_eliminar = new javax.swing.JButton();
-        btn_expo_guardar = new javax.swing.JButton();
-        btn_expo_actualizar = new javax.swing.JButton();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        tabla_exposiciones = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        txt_museo_nombre.setLabelText("Nombre  de museo");
-        jPanel1.add(txt_museo_nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, 250, -1));
-
-        jLabel1.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel1.setText("Museos");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, -1, -1));
-
-        txt_museo_calle.setLabelText("Calle  de museo");
-        jPanel1.add(txt_museo_calle, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, 250, -1));
-
-        txt_museo_cod.setLabelText("Codigo  de museo");
-        jPanel1.add(txt_museo_cod, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 250, -1));
-
-        txt_museo_estado.setLabelText("Estado  de museo");
-        jPanel1.add(txt_museo_estado, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, 250, -1));
-
-        txt_museo_calle3.setLabelText("Codigo postal   de museo");
-        jPanel1.add(txt_museo_calle3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 250, -1));
-
-        tabla_museo.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Codigo", "Nombre", "Calle", "Cod Postal", "Estado"
-            }
-        ));
-        jScrollPane1.setViewportView(tabla_museo);
-
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 70, 680, 360));
-
-        btn_actualizar_museo.setText("Actualizar");
-        jPanel1.add(btn_actualizar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 490, 120, 40));
-
-        btn_guardar_museo.setText("Guardar");
-        jPanel1.add(btn_guardar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, 120, 40));
-
-        btn_eliminar_museo.setText("Eliminar");
-        jPanel1.add(btn_eliminar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 570, 120, 40));
-
         materialTabbed1.addTab("Museos", jPanel1);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        tabla_activos.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null}
-            },
-            new String [] {
-                "ID Activo", "ID Tipo", "Ancho", "Alto", "Peso", "Id Estado"
-            }
-        ));
-        jScrollPane2.setViewportView(tabla_activos);
-
-        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 36, 830, 283));
-
-        tabla_colecciones.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "ID Colecciones", "Nombre", "Dueño", "ID Estado"
-            }
-        ));
-        jScrollPane3.setViewportView(tabla_colecciones);
-
-        jPanel2.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 370, 820, 280));
-
-        jLabel2.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel2.setText("Colecciones");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 490, -1, -1));
-
-        jLabel5.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel5.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel5.setText("Activos");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
-
         materialTabbed1.addTab("Activos", jPanel2);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        txt_motivo_traslado.setLabelText("Motivo de traslado");
-        jPanel3.add(txt_motivo_traslado, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 257, -1));
-
-        txt_fecha_retorno.setLabelText("Fecha de Retorno");
-        jPanel3.add(txt_fecha_retorno, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 257, -1));
-
-        cbx_activo_traslado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar" }));
-        jPanel3.add(cbx_activo_traslado, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 260, 40));
-
-        jButton1.setText("Guardar");
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 370, 210, 50));
-
-        tabla_traslado.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null}
-            },
-            new String [] {
-                "ID Traspado", "ID Activo", "Fecha", "Fecha de Retorno", "Motivo", "ID Estado"
-            }
-        ));
-        jScrollPane4.setViewportView(tabla_traslado);
-
-        jPanel3.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 70, 750, 340));
-
         materialTabbed1.addTab("Traslador", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        cbx_compra_activos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar activo", " " }));
-        cbx_compra_activos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbx_compra_activosActionPerformed(evt);
-            }
-        });
-        jPanel4.add(cbx_compra_activos, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 240, 40));
-
-        txt_compra_autor.setLabelText("Autor de compra");
-        jPanel4.add(txt_compra_autor, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 240, -1));
-
-        cbx_compra_estado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar estado", " " }));
-        jPanel4.add(cbx_compra_estado, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 240, 50));
-
-        tabla_compras.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-
-            }
-        ));
-        jScrollPane5.setViewportView(tabla_compras);
-
-        jPanel4.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 50, 700, 340));
-
-        btn_compra_eliminar.setText("Eliminar");
-        jPanel4.add(btn_compra_eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 450, 100, 40));
-
-        btn_compra_guardar.setText("Guardar");
-        jPanel4.add(btn_compra_guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 100, 40));
-
-        btn_compra_actualizar.setText("Actualizar");
-        jPanel4.add(btn_compra_actualizar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 100, 40));
-
         materialTabbed1.addTab("Compras", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        cbx_empleado_cargo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar cargo" }));
-        jPanel5.add(cbx_empleado_cargo, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 69, 240, 42));
-
-        txt_empleado_dni.setLabelText("DNI de empleado");
-        jPanel5.add(txt_empleado_dni, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 129, 240, -1));
-
-        txt_empleado_apellido.setLabelText("Apellidos de empleado");
-        jPanel5.add(txt_empleado_apellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 240, -1));
-
-        txt_empleado_nombre.setLabelText("Nombres de empleado");
-        jPanel5.add(txt_empleado_nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 200, 240, -1));
-
-        btn_empleado_eliminar.setText("Eliminar");
-        jPanel5.add(btn_empleado_eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 470, 140, 40));
-
-        btn_empleado_guardar.setText("Guardar");
-        jPanel5.add(btn_empleado_guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 140, 40));
-
-        btn_empleado_actualizar.setText("Actualizar");
-        jPanel5.add(btn_empleado_actualizar, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, 140, 40));
-
-        tabla_empleados.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-
-            }
-        ));
-        jScrollPane6.setViewportView(tabla_empleados);
-
-        jPanel5.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, 800, 380));
-
         materialTabbed1.addTab("Empleados", jPanel5);
 
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        cbx_exposicion_estado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar estado" }));
-        jPanel6.add(cbx_exposicion_estado, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, 231, 50));
-
-        txt_fecha_fin.setLabelText("Fecha de fin");
-        txt_fecha_fin.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_fecha_finActionPerformed(evt);
-            }
-        });
-        jPanel6.add(txt_fecha_fin, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 230, -1));
-
-        txt_fecha_inicio.setLabelText("Fecha de inicio");
-        txt_fecha_inicio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_fecha_inicioActionPerformed(evt);
-            }
-        });
-        jPanel6.add(txt_fecha_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 230, -1));
-
-        cbx_exposicion_empleado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar empleado" }));
-        jPanel6.add(cbx_exposicion_empleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 85, 231, 50));
-
-        btn_expo_eliminar.setText("Eliminar");
-        jPanel6.add(btn_expo_eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 520, 170, 40));
-
-        btn_expo_guardar.setText("Gaurdar");
-        jPanel6.add(btn_expo_guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 450, 170, 40));
-
-        btn_expo_actualizar.setText("Gaurdar");
-        jPanel6.add(btn_expo_actualizar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, 170, 40));
-
-        tabla_exposiciones.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-
-            }
-        ));
-        jScrollPane7.setViewportView(tabla_exposiciones);
-
-        jPanel6.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 50, 740, -1));
-
         materialTabbed1.addTab("Exposiciones", jPanel6);
 
         getContentPane().add(materialTabbed1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 1240, 760));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void cbx_compra_activosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbx_compra_activosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cbx_compra_activosActionPerformed
-
-    private void txt_fecha_finActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_fecha_finActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_fecha_finActionPerformed
-
-    private void txt_fecha_inicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_fecha_inicioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_fecha_inicioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -393,61 +101,12 @@ public class Home extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_actualizar_museo;
-    private javax.swing.JButton btn_compra_actualizar;
-    private javax.swing.JButton btn_compra_eliminar;
-    private javax.swing.JButton btn_compra_guardar;
-    private javax.swing.JButton btn_eliminar_museo;
-    private javax.swing.JButton btn_empleado_actualizar;
-    private javax.swing.JButton btn_empleado_eliminar;
-    private javax.swing.JButton btn_empleado_guardar;
-    private javax.swing.JButton btn_expo_actualizar;
-    private javax.swing.JButton btn_expo_eliminar;
-    private javax.swing.JButton btn_expo_guardar;
-    private javax.swing.JButton btn_guardar_museo;
-    private javax.swing.JComboBox<String> cbx_activo_traslado;
-    private javax.swing.JComboBox<String> cbx_compra_activos;
-    private javax.swing.JComboBox<String> cbx_compra_estado;
-    private javax.swing.JComboBox<String> cbx_empleado_cargo;
-    private javax.swing.JComboBox<String> cbx_exposicion_empleado;
-    private javax.swing.JComboBox<String> cbx_exposicion_estado;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
     private com.goslinggroup.utilsui.MaterialTabbed materialTabbed1;
-    private javax.swing.JTable tabla_activos;
-    private javax.swing.JTable tabla_colecciones;
-    private javax.swing.JTable tabla_compras;
-    private javax.swing.JTable tabla_empleados;
-    private javax.swing.JTable tabla_exposiciones;
-    private javax.swing.JTable tabla_museo;
-    private javax.swing.JTable tabla_traslado;
-    private com.goslinggroup.utilsui.TextField txt_compra_autor;
-    private com.goslinggroup.utilsui.TextField txt_empleado_apellido;
-    private com.goslinggroup.utilsui.TextField txt_empleado_dni;
-    private com.goslinggroup.utilsui.TextField txt_empleado_nombre;
-    private com.goslinggroup.utilsui.TextField txt_fecha_fin;
-    private com.goslinggroup.utilsui.TextField txt_fecha_inicio;
-    private com.goslinggroup.utilsui.TextField txt_fecha_retorno;
-    private com.goslinggroup.utilsui.TextField txt_motivo_traslado;
-    private com.goslinggroup.utilsui.TextField txt_museo_calle;
-    private com.goslinggroup.utilsui.TextField txt_museo_calle3;
-    private com.goslinggroup.utilsui.TextField txt_museo_cod;
-    private com.goslinggroup.utilsui.TextField txt_museo_estado;
-    private com.goslinggroup.utilsui.TextField txt_museo_nombre;
     // End of variables declaration//GEN-END:variables
 }
