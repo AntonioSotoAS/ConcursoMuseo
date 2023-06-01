@@ -1,11 +1,14 @@
 package repositories;
 
+import model.Museo;
+
 import java.util.List;
 
 public interface MuseoRepository {
 
-    List<String> getMuseos();
-    void agregarMuseo(String museo);
+
+    List<Museo> getMuseos();
+    void agregarMuseo(Museo museo);
 
 
 

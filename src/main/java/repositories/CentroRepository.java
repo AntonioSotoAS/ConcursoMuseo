@@ -1,10 +1,12 @@
 package repositories;
 
+import model.Centro;
+
 import java.util.List;
 
 public interface CentroRepository {
 
-    List<String> getCentros();
-    void agregarCentro(String centro);
+    List<Centro> getCentros(Integer idMuseo);
+    void agregarCentro(Centro centro);
 
 }

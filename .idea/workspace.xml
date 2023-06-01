@@ -52,22 +52,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "repository",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ruben/OneDrive/Escritorio/Campeonato de programacion/ConcursoMuseo",
+    "last_opened_file_path": "D:/ConcursoMuseo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="model" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="repositories" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685644969312</updated>
       <workItem from="1685644971329" duration="716000" />
+      <workItem from="1685646154165" duration="3428000" />
     </task>
     <servers />
   </component>
