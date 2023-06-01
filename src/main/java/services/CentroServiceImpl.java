@@ -8,6 +8,6 @@ package services;
  *
  * @author codertech
  */
-public class CentroServiceImpl1 {
+public class CentroServiceImpl {
     
 }

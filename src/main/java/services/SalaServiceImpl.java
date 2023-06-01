@@ -8,6 +8,6 @@ package services;
  *
  * @author codertech
  */
-public class UsuarioServiceImpl1 {
+public class SalaServiceImpl {
     
 }
