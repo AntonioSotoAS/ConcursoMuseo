@@ -63,13 +63,13 @@ public class Museos extends javax.swing.JPanel {
         add(txt_museo_estado, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, 250, -1));
 
         btn_guardar_museo.setText("Guardar");
-        add(btn_guardar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, 120, 40));
+        add(btn_guardar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 120, 40));
 
         btn_actualizar_museo.setText("Actualizar");
-        add(btn_actualizar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 490, 120, 40));
+        add(btn_actualizar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 460, 120, 40));
 
         btn_eliminar_museo.setText("Eliminar");
-        add(btn_eliminar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 570, 120, 40));
+        add(btn_eliminar_museo, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 510, 120, 40));
 
         tabla_museo.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
