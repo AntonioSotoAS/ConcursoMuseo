@@ -13,6 +13,10 @@ public class Sala {
         this.idEstado = idEstado;
     }
 
+    public Sala() {
+
+    }
+
     public Integer getIdSala() {
         return idSala;
     }

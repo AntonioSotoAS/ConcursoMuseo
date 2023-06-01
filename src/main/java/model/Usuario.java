@@ -2,11 +2,11 @@ package model;
 
 public class Usuario {
     private Integer idUsuario;
-    private Empleo empleo;
+    private Empleado empleo;
     private String username;
     private String password;
 
-    public Usuario(Integer idUsuario, Empleo empleo, String username, String password) {
+    public Usuario(Integer idUsuario, Empleado empleo, String username, String password) {
         this.idUsuario = idUsuario;
         this.empleo = empleo;
         this.username = username;
@@ -21,11 +21,11 @@ public class Usuario {
         this.idUsuario = idUsuario;
     }
 
-    public Empleo getEmpleo() {
+    public Empleado getEmpleo() {
         return empleo;
     }
 
-    public void setEmpleo(Empleo empleo) {
+    public void setEmpleo(Empleado empleo) {
         this.empleo = empleo;
     }
 

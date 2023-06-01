@@ -4,12 +4,12 @@ import java.time.LocalDateTime;
 
 public class Exposicion {
     private Integer idExposicion;
-    private Empleo empleo;
+    private Empleado empleo;
     private LocalDateTime fechaInicio;
     private LocalDateTime fechaFin;
     private Integer idEstado;
 
-    public Exposicion(Integer idExposicion, Empleo empleo, LocalDateTime fechaInicio, LocalDateTime fechaFin, Integer idEstado) {
+    public Exposicion(Integer idExposicion, Empleado empleo, LocalDateTime fechaInicio, LocalDateTime fechaFin, Integer idEstado) {
         this.idExposicion = idExposicion;
         this.empleo = empleo;
         this.fechaInicio = fechaInicio;
@@ -25,11 +25,11 @@ public class Exposicion {
         this.idExposicion = idExposicion;
     }
 
-    public Empleo getEmpleo() {
+    public Empleado getEmpleo() {
         return empleo;
     }
 
-    public void setEmpleo(Empleo empleo) {
+    public void setEmpleo(Empleado empleo) {
         this.empleo = empleo;
     }
 
