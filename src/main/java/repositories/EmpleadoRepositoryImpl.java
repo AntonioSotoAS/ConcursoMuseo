@@ -28,8 +28,6 @@ public class EmpleadoRepositoryImpl {
              ResultSet rs = stmt.executeQuery("SELECT * FROM empleados")) {
 
             while (rs.next()) {
-                Empleado empleado = crearEmpleado(rs);
-                empleados.add(empleado);
             }
 
         } catch (SQLException e) {
