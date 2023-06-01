@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Forms;
+package views;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
@@ -36,16 +36,16 @@ public class Login extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         panelIniciar = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        textField1 = new Forms.TextField();
+        textField1 = new com.goslinggroup.utilsui.TextField();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         lblRegistrar = new javax.swing.JLabel();
         panelRegistra = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        txtnombres = new Forms.TextField();
-        txtapellidos = new Forms.TextField();
-        txtemail = new Forms.TextField();
-        txtpass = new Forms.TextField();
+        txtnombres = new com.goslinggroup.utilsui.TextField();
+        txtapellidos = new com.goslinggroup.utilsui.TextField();
+        txtemail = new com.goslinggroup.utilsui.TextField();
+        txtpass = new com.goslinggroup.utilsui.TextField();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -53,7 +53,6 @@ public class Login extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(910, 620));
-        setPreferredSize(new java.awt.Dimension(910, 620));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -207,10 +206,10 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel lblRegistrar;
     private javax.swing.JPanel panelIniciar;
     private javax.swing.JPanel panelRegistra;
-    private Forms.TextField textField1;
-    private Forms.TextField txtapellidos;
-    private Forms.TextField txtemail;
-    private Forms.TextField txtnombres;
-    private Forms.TextField txtpass;
+    private com.goslinggroup.utilsui.TextField textField1;
+    private com.goslinggroup.utilsui.TextField txtapellidos;
+    private com.goslinggroup.utilsui.TextField txtemail;
+    private com.goslinggroup.utilsui.TextField txtnombres;
+    private com.goslinggroup.utilsui.TextField txtpass;
     // End of variables declaration//GEN-END:variables
 }

@@ -9,9 +9,6 @@
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[910, 620]"/>
     </Property>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[910, 620]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -82,7 +79,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="Forms.TextField" name="textField1">
+            <Component class="com.goslinggroup.utilsui.TextField" name="textField1">
               <Properties>
                 <Property name="labelText" type="java.lang.String" value="Email"/>
               </Properties>
@@ -197,7 +194,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="Forms.TextField" name="txtnombres">
+            <Component class="com.goslinggroup.utilsui.TextField" name="txtnombres">
               <Properties>
                 <Property name="labelText" type="java.lang.String" value="Nombres"/>
               </Properties>
@@ -207,7 +204,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="Forms.TextField" name="txtapellidos">
+            <Component class="com.goslinggroup.utilsui.TextField" name="txtapellidos">
               <Properties>
                 <Property name="labelText" type="java.lang.String" value="Apellidos"/>
               </Properties>
@@ -217,7 +214,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="Forms.TextField" name="txtemail">
+            <Component class="com.goslinggroup.utilsui.TextField" name="txtemail">
               <Properties>
                 <Property name="labelText" type="java.lang.String" value="Email"/>
               </Properties>
@@ -227,7 +224,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="Forms.TextField" name="txtpass">
+            <Component class="com.goslinggroup.utilsui.TextField" name="txtpass">
               <Properties>
                 <Property name="labelText" type="java.lang.String" value="Password"/>
               </Properties>
