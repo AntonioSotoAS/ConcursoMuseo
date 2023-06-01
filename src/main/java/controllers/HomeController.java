@@ -1,12 +1,8 @@
 package controllers;
 
-import java.awt.Component;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
+;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 import views.Home;
 
 public class HomeController {
@@ -15,6 +11,8 @@ public class HomeController {
     private int index;
 
     private MuseosController museosController;
+    private UsuariosController usuariosController;
+    private ExposicionController exposicionController;
 
     public HomeController() {
 
@@ -31,6 +29,16 @@ public class HomeController {
                     case 1:
                         break;
                     case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        usuariosController = new UsuariosController(home);
+                        usuariosController.vistaEmpleado.setVisible(true);
+                        break;
+                    case 5:
+                        exposicionController = new ExposicionController(home);
+                        exposicionController.vistaExposiciones.setVisible(true);
                         break;
                     default:
                         break;
