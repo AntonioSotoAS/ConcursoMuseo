@@ -1,15 +1,18 @@
 package model;
 
-import java.time.LocalDateTime;
+import java.sql.Date;
 
 public class Exposicion {
     private Integer idExposicion;
     private Empleado empleo;
-    private LocalDateTime fechaInicio;
-    private LocalDateTime fechaFin;
+    private Date fechaInicio;
+    private Date fechaFin;
     private Integer idEstado;
 
-    public Exposicion(Integer idExposicion, Empleado empleo, LocalDateTime fechaInicio, LocalDateTime fechaFin, Integer idEstado) {
+    public Exposicion() {
+    }
+
+    public Exposicion(Integer idExposicion, Empleado empleo, Date fechaInicio, Date fechaFin, Integer idEstado) {
         this.idExposicion = idExposicion;
         this.empleo = empleo;
         this.fechaInicio = fechaInicio;
@@ -33,19 +36,19 @@ public class Exposicion {
         this.empleo = empleo;
     }
 
-    public LocalDateTime getFechaInicio() {
+    public Date getFechaInicio() {
         return fechaInicio;
     }
 
-    public void setFechaInicio(LocalDateTime fechaInicio) {
+    public void setFechaInicio(Date fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
 
-    public LocalDateTime getFechaFin() {
+    public Date getFechaFin() {
         return fechaFin;
     }
 
-    public void setFechaFin(LocalDateTime fechaFin) {
+    public void setFechaFin(Date fechaFin) {
         this.fechaFin = fechaFin;
     }
 
@@ -56,4 +59,6 @@ public class Exposicion {
     public void setIdEstado(Integer idEstado) {
         this.idEstado = idEstado;
     }
+
+    
 }

@@ -1,6 +1,5 @@
 package model;
 
-import java.time.LocalDateTime;
 
 public class Empleado {
     private Integer idEmpleado;
@@ -8,9 +7,12 @@ public class Empleado {
     private String dni;
     private String apellido;
     private String nombre;
-    private LocalDateTime fechaCambio;
+    private Date fechaCambio;
 
-    public Empleado(Integer idEmpleado, Cargo cargo, String dni, String apellido, String nombre, LocalDateTime fechaCambio) {
+    public Empleado() {
+    }
+
+    public Empleado(Integer idEmpleado, Cargo cargo, String dni, String apellido, String nombre, Date fechaCambio) {
         this.idEmpleado = idEmpleado;
         this.cargo = cargo;
         this.dni = dni;
@@ -59,11 +61,14 @@ public class Empleado {
         this.nombre = nombre;
     }
 
-    public LocalDateTime getFechaCambio() {
+    public Date getFechaCambio() {
         return fechaCambio;
     }
 
-    public void setFechaCambio(LocalDateTime fechaCambio) {
+    public void setFechaCambio(Date fechaCambio) {
         this.fechaCambio = fechaCambio;
     }
+    
+
+    
 }
