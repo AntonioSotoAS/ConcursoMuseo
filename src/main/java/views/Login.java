@@ -39,6 +39,7 @@ public class Login extends javax.swing.JFrame {
         textField1 = new com.goslinggroup.utilsui.TextField();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jPasswordField2 = new javax.swing.JPasswordField();
         lblRegistrar = new javax.swing.JLabel();
         panelRegistra = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -81,6 +82,9 @@ public class Login extends javax.swing.JFrame {
         jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 153, 255), 2));
         jButton3.setContentAreaFilled(false);
         panelIniciar.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 140, 30));
+
+        jPasswordField2.setForeground(new java.awt.Color(255, 255, 255));
+        panelIniciar.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 260, 40));
 
         jPanel1.add(panelIniciar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 380, 500));
 
@@ -203,6 +207,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPasswordField jPasswordField2;
     private javax.swing.JLabel lblRegistrar;
     private javax.swing.JPanel panelIniciar;
     private javax.swing.JPanel panelRegistra;
