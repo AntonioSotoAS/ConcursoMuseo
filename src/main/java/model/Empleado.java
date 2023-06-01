@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDateTime;
 
-public class Empleo {
+public class Empleado {
     private Integer idEmpleado;
     private Cargo cargo;
     private String dni;
@@ -10,7 +10,7 @@ public class Empleo {
     private String nombre;
     private LocalDateTime fechaCambio;
 
-    public Empleo(Integer idEmpleado, Cargo cargo, String dni, String apellido, String nombre, LocalDateTime fechaCambio) {
+    public Empleado(Integer idEmpleado, Cargo cargo, String dni, String apellido, String nombre, LocalDateTime fechaCambio) {
         this.idEmpleado = idEmpleado;
         this.cargo = cargo;
         this.dni = dni;

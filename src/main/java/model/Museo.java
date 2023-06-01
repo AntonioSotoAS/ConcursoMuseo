@@ -19,6 +19,10 @@ public class Museo {
         this.idEstado = idEstado;
     }
 
+    public Museo() {
+
+    }
+
     public Integer getIdMuseo() {
         return idMuseo;
     }

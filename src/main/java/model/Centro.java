@@ -16,6 +16,10 @@ public class Centro {
         this.idEstado = idEstado;
     }
 
+    public Centro() {
+
+    }
+
     public Integer getIdCentro() {
         return idCentro;
     }
